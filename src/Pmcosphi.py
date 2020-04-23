@@ -19,8 +19,6 @@ def Spherical2Cartesian(r, theta, phi):
     
     return x, y, z
 
-#%% Legendre Polynomials
-
 def Legendre_Poly(n, x):
 
     if n == 0:
